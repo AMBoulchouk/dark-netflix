@@ -1,0 +1,40 @@
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: 3em;
+    margin-right: 3em;
+    flex-direction: row;
+}
+
+li {
+    padding: 1em;
+}
+
+form {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+}
+
+svg {
+    background-color: #4e3903;
+    padding: 0;
+    margin: 0;
+    fill: #D79B00;
+    padding: 0.2em;
+}
+
+input {
+    background-color: #D79B00;
+    border: none;
+    padding: 0.2em;
+}
+
+#searcher {
+    margin-left: auto;
+}
